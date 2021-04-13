@@ -52,10 +52,18 @@ nav {
     right: 6%;
 }
 
+#hamburger {
+    width: 60px;
+    position: absolute;
+    right: 20px;
+    top: 25px;
+    z-index: 2;
+}
+
 section {
     position: absolute;
     right: 100px;
-    bottom: 90px;
+    bottom: 110px;
     width: 520px;
 }
 
@@ -77,12 +85,4 @@ section h1 {
     border: solid white 2px;
     padding: 15px;
     width: 130px;
-}
-
-#hamburger {
-    width: 60px;
-    position: absolute;
-    right: 20px;
-    top: 30px;
-    z-index: 2;
 }
